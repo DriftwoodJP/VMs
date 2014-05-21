@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    iesd (1.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  iesd (~> 1.0.3)
