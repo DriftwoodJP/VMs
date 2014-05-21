@@ -17,13 +17,13 @@ AppStore.app から、Mavericks のインストーラをダウンロードしま
 ダウンロード終了後、インストーラが立ち上がりますが、そのまま何もせずに終了します。
 
 
-iesd をインストールする
+### iesd をインストールする
 
 ```
 % bundle install --path vendor/bundle
 ```
 
-インストールディスクを作成する
+### インストールディスクを作成する
 
 ```
 % iesd -i /Applications/Install\ OS\ X\ Mavericks.app -o Mavericks.dmg -t BaseSystem
