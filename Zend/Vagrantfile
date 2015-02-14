@@ -96,7 +96,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         port: "80",
         zf1: "/vagrant/www/zf1/public",
         zf2: "/vagrant/www/zf2/public",
-        php: "/vagrant/www/php"
+        php: "/vagrant/www/php/public"
       }
     }
   #   chef.roles_path = "../my-recipes/roles"
@@ -131,4 +131,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # chef-validator, unless you changed the configuration.
   #
   #   chef.validation_client_name = "ORGNAME-validator"
+
+  # serverspec
+  # config.vm.provision :serverspec do |spec|
+  #   spec.pattern = 'spec/**/*_spec.rb'
+  # end
 end
