@@ -1,0 +1,3 @@
+[submodule "VCCW"]
+	path = VCCW
+	url = git@github.com:vccw-team/vccw.git
